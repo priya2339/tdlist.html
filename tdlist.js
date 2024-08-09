@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
         }
         const listItem = document.createElement('li');
         listItem.innerHTML = `
-            <input type="radio" class="checkbox" ${checked ? 'checked' : ''}>
+            <input type="checkbox" class="checkbox" ${checked ? 'checked' : ''}>
             <span>${text}</span>
             <button class="delete-button">Delete</button>
         `;
